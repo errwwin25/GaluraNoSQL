@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaluraNoSQL.Android", "GaluraNoSQL\GaluraNoSQL.Android\GaluraNoSQL.Android.csproj", "{C8820ABD-5F88-4AD3-8562-5A992E429A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaluraNoSQL", "GaluraNoSQL\GaluraNoSQL\GaluraNoSQL.csproj", "{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8820ABD-5F88-4AD3-8562-5A992E429A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8820ABD-5F88-4AD3-8562-5A992E429A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8820ABD-5F88-4AD3-8562-5A992E429A38}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C8820ABD-5F88-4AD3-8562-5A992E429A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8820ABD-5F88-4AD3-8562-5A992E429A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8820ABD-5F88-4AD3-8562-5A992E429A38}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2844DAD3-72A7-4907-B073-B3DC38E6ACD8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D785FC89-4C9D-4AA9-A399-BC0A4C1F7F3F}
+	EndGlobalSection
+EndGlobal

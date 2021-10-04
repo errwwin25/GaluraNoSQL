@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaluraNoSQL.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Student ID"/>
+            <Entry Text="{Binding StudentIdEntry}"/>
+
+            <Label Text="Student Name"/>
+            <Entry Text="{Binding StudentNameEntry}"/>
+
+            <Label Text="Course"/>
+            <Entry Text="{Binding StudentCodeEntry}"/>
+
+            <Label Text="Year Level"/>
+            <Entry Text="{Binding CourseTitletEntry}"/>
+
+            <Label Text="Section"/>
+            <Entry Text="{Binding SubjectUnitEntry}"/>
+
+            <Label Text="Date of Attendance"/>
+            <Entry Text="{Binding StudentDateEntry}"/>
+
+            <Button Command="{Binding SubmitEntry}" Text="Submit"/>
+            <Button Command="{Binding ClearEntry}" Text="Clear"/>
+
+            <Label Text="{Binding StudentIdDisplay}"/>
+            <Label Text="{Binding StudentNameDisplay}"/>
+            <Label Text="{Binding StudentCodeDisplay}"/>
+            <Label Text="{Binding CourseTitletDisplay}"/>
+            <Label Text="{Binding SubjectUnitDisplay}"/>
+            <Label Text="{Binding StudentDateDisplay}"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
